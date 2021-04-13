@@ -1,0 +1,43 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 2.5em;
+}
+.slideshow img{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 35%;
+    height: auto;
+    max-width:100%;
+    display: block;
+    border: 10px solid white;
+    border-radius: 8px;   
+}
+.slideshow img:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.points{
+    position: relative;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: gray;
+    display: inline-block;
+}
+.points:hover{
+    opacity: 0.4;
+}
+
