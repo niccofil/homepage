@@ -19,35 +19,31 @@ body{
     width: 30px;
     height: 3px;
     margin: 6px 2px;
-    background-color: white;
-    
+    background-color: white;   
 }
 
 #title{
-    position: relative;
     text-align: center;
-    margin-top: 50px;
+    margin: -75px auto 50px auto;
+    width: 505px;
     color: red;
     font-style: italic;
     font-variant: small-caps;
     font-size: 2.5em;
 }
 .slideshow img{
-    position: relative;
-    margin: auto;
-    width: 35%;
+    max-width: 505px;
     height: auto;
-    max-width:100%;
     display: block;
     border: 5px solid white;
-    border-radius: 8px;   
+    border-radius: 8px;
+    margin: auto;
 }
 .slideshow img:hover{
     cursor: pointer;
     opacity: 0.4;
 }
 .points{
-    position: relative;
     cursor: pointer;
     height: 15px;
     width: 15px;
