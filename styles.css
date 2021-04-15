@@ -4,7 +4,27 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-header{
+.menu-border{
+    position: relative;
+    height:45px;
+    width: 45px;
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 30%;
+    margin: 30px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.burger{
+    width: 30px;
+    height: 3px;
+    margin: 6px 2px;
+    background-color: white;
+    
+}
+
+#title{
+    position: relative;
     text-align: center;
     margin-top: 50px;
     color: red;
@@ -14,14 +34,12 @@ header{
 }
 .slideshow img{
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    margin: auto;
     width: 35%;
     height: auto;
     max-width:100%;
     display: block;
-    border: 10px solid white;
+    border: 5px solid white;
     border-radius: 8px;   
 }
 .slideshow img:hover{
@@ -34,7 +52,7 @@ header{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: gray;
+    border: 1px solid white;    
     display: inline-block;
 }
 .points:hover{
