@@ -1,57 +1,22 @@
-body{
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.menu-border{
-    position: relative;
-    height:45px;
-    width: 45px;
-    padding: 3px;
-    border: 3px solid white;
-    border-radius: 30%;
-    margin: 30px;
-    background: rgba(0, 0, 0, 0);
-}
-
-.burger{
-    width: 30px;
-    height: 3px;
-    margin: 6px 2px;
-    background-color: white;   
-}
-
 #title{
-    text-align: center;
-    margin: -75px auto 50px auto;
-    width: 505px;
-    color: red;
-    font-style: italic;
-    font-variant: small-caps;
-    font-size: 2.5em;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px gray;
+    color: gold;
+    margin: 30px;
 }
-.slideshow img{
-    max-width: 505px;
-    height: auto;
-    display: block;
-    border: 5px solid white;
-    border-radius: 8px;
-    margin: auto;
+
+#line{
+    width: 30%;
+    text-align: left;
+    margin-right: 5px;
+    margin-top: -30px;
 }
-.slideshow img:hover{
-    cursor: pointer;
-    opacity: 0.4;
-}
-.points{
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    border: 1px solid white;    
-    display: inline-block;
-}
-.points:hover{
-    opacity: 0.4;
+
+.menu{
+    text-align: right;
+    margin-right: 30%;
 }
 
