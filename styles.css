@@ -4,24 +4,20 @@
 
  header{
     position: sticky;
-    margin: 3%;
+    top: 0%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin:20px 10px 20px 10px;
  }
-
-#title{
-    width: fit-content;
+ #home{
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px gray;
     font-style: italic;
-    font-size: 150%;
     letter-spacing: 2px;
     color: gold;
 }
-
 #home:hover{
     text-decoration: none;
     cursor: pointer;
@@ -34,8 +30,8 @@
     display: flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
-    width: fit-content;
-    height: fit-content;  
+    align-items: center;
+    margin: 0 0 0 auto;
 }
 
 .links a{
@@ -60,9 +56,6 @@
     border: none;
 }
 
-.slideshow img{
-    border-radius: 30%;
-    filter: drop-shadow(5px 5px 5px #222);
-}
+
 
 
