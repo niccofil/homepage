@@ -8,8 +8,10 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    margin:20px 10px 20px 10px;
+    align-items: center;
+    margin:20px 20px 20px 20px;
  }
+
  #home{
     text-align: center;
     text-transform: uppercase;
@@ -18,6 +20,7 @@
     letter-spacing: 2px;
     color: gold;
 }
+
 #home:hover{
     text-decoration: none;
     cursor: pointer;
@@ -55,6 +58,10 @@
     background-color: #FFFDE7;
     border: none;
 }
+
+
+
+
 
 
 
