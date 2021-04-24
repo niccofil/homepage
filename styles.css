@@ -29,8 +29,7 @@
     transition: transform 250ms ease-out;
 }
 
-.nav-container{
-    position: relative;  
+.nav-container{ 
     display: flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
@@ -45,6 +44,7 @@
     color: gold;
     font-weight: bold;
 }
+
 .links a:hover{
     text-decoration: underline;
 }
@@ -58,17 +58,38 @@
 .search button{
     background-color: #FFFDE7;
     border: none;
+    outline: none;
 }
 
 
-.dropdown-content {
+.dropdown-conteiner {
     position: absolute;
+    right: 12%;
+    display: none;
+    margin: 10px;
+    width: min-content;
     background-color: white;
-    min-width: 160px;
+    border-radius: 3%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
 }
+
+.forms input, button {
+    margin: 7px 0px 7px 0px;
+}
+
+.forms input:focus{background-color: aliceblue;}
+
+#google-btn{
+    background-color: white;
+    border: 0;
+    padding: 0;
+    outline: none;
+    background: none;
+}
+
+#google-btn:hover {box-shadow: 0 0 6px #4285f4;}
 
 
 

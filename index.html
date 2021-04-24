@@ -29,9 +29,19 @@
                     <a href="blog.html">Blog</a>
                     <a href="shop.html">Shop</a>
                 </div>
-                <button type = "button" class="btn btn-outline-warning" onclick = "drop();">Sign in</button>
-                <div class="dropdown-content" style="display: none">
-                    <p>text</p>
+                <div>
+                    <button type = "button" class="btn btn-outline-warning" onclick = "drop();">Sign in</button>
+                    <div class="dropdown-conteiner">
+                        <form class = "forms">
+                            <input type = "text" placeholder="Username">
+                            <input type = "password" placeholder="Password">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="button">Sign in</button>
+                            </div>
+                            <button type="submit" id = "google-btn"><img src="img/google.png" alt="google"></button>
+                            <p>Not a member yet? <a href="#"> Click here</a> to register</p>
+                        </form>
+                    </div>
                 </div>
             </nav>
         </header>  
