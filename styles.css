@@ -61,7 +61,6 @@
     outline: none;
 }
 
-
 .dropdown-conteiner {
     position: absolute;
     right: 12%;
@@ -75,21 +74,32 @@
     z-index: 1;
 }
 
-.forms input, button {
-    margin: 7px 0px 7px 0px;
-}
+.forms  {text-align: center;}
+
+.forms p {margin-bottom: 0;}
 
 .forms input:focus{background-color: aliceblue;}
 
-#google-btn{
-    background-color: white;
-    border: 0;
-    padding: 0;
-    outline: none;
-    background: none;
+.line{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 20px 0 20px; 
 }
 
-#google-btn:hover {box-shadow: 0 0 6px #4285f4;}
+.line span{
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.google{
+    background-color: #dd4b39;
+    color: white;
+}
+
+
+
 
 
 
