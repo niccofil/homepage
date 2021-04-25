@@ -74,11 +74,9 @@
     z-index: 1;
 }
 
-.forms  {text-align: center;}
+.forms-sign-in  {text-align:center;}
 
-.forms p {margin-bottom: 0;}
-
-.forms input:focus{background-color: aliceblue;}
+.forms-sign-in input:focus{background-color: aliceblue;}
 
 .line{
     width: 100%; 
@@ -98,9 +96,14 @@
     color: white;
 }
 
+.check{margin: 10px 0 10px 0; text-align: start;}
 
+.check input, .check p {display: inline;}
 
-
+.sign-up a, .sign-up p{
+    text-align: center;
+    margin: 0;
+}
 
 
 
