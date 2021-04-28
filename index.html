@@ -30,35 +30,34 @@
                     <a href="blog.html">Blog</a>
                     <a href="shop.html">Shop</a>
                 </div>
-                <div>
-                    <button type = "button" class="btn btn-outline-warning" onclick = "drop();">Sign in</button>
-                    <div class="dropdown-conteiner">
-                        <form class = "forms-sign-in">
-                            <h3>Sign In</h3>
-                            <input type = "text" placeholder="Username"><br><br>
-                            <input type = "password" placeholder="Password"><br>
-                            <div class = "check">
-                                <input type = "checkbox">
-                                <p>Remember password?</p>
-                            </div>
-                            <button class = "btn btn-primary btn-block" type="button">Sign in</button>
-                            <h6 class = "line">
-                                <span>or</span>
-                            </h6>
-                            <button class="btn btn-danger btn-block fa fa-google" type = "button">
-                                Sign in with <b>Google</b>
-                            </button>
-                            <div class = "sign-up">
-                                <p>Not a member yet?</p>
-                                <a href="#">Sign up</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <button type = "button" class="btn btn-outline-warning" onclick = "drop();">Sign in</button>   
             </nav>
+            <div class="dropdown-conteiner">
+                <button type="button" class="close" aria-label="Close" onclick="drop();">&times;</button>
+                <img src="img/login_icon.png">
+                <form class = "forms-sign-in">
+                    <h3>Sign In</h3>
+                    <input type = "text" placeholder="Username"><br><br>
+                    <input type = "password" placeholder="Password"><br>
+                    <div class = "check">
+                        <input type = "checkbox">
+                        <p>Remember password?</p>
+                    </div>
+                    <button class = "btn btn-primary btn-block" type="button">Sign in</button>
+                    <h6 class = "line">
+                        <span>or</span>
+                    </h6>
+                    <button class="btn btn-danger btn-block fa fa-google" type = "button">
+                        Sign in with <b>Google</b>
+                    </button>
+                    <div class = "sign-up">
+                        <p>Not a member yet?</p>
+                        <a href="#">Sign up</a>
+                    </div>
+                </form>
+            </div> 
         </header>
         <main class = "index-main">
-           
         </main> 
     </body>
 </html>
