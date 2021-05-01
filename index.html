@@ -35,15 +35,21 @@
             <div class="dropdown-conteiner">
                 <button type="button" class="close" aria-label="Close" onclick="drop();">&times;</button>
                 <img src="img/login_icon.png">
-                <form class = "forms-sign-in">
+                <form class = "forms-sign-in" action ="#" onsubmit = "check();"> 
                     <h3>Sign In</h3>
-                    <input type = "text" placeholder="Username" id = "name"><br><br>
-                    <input type = "password" placeholder="Password" id = "pass"><br>
+                    <div class = "input-conteiner">
+                        <input type = "text" placeholder="Username" id = "name" >
+                        <p id = "emptyUser"></p>
+                    </div>
+                    <div class="pass-conteiner">
+                        <input type = "password" placeholder="Password" id = "pass">
+                        <p id = "emptyPass"></p>
+                    </div>
                     <div class = "check">
                         <input type = "checkbox">
                         <p>Remember password?</p>
                     </div>
-                    <button class = "btn btn-primary btn-block" type="submit" onsubmit = "drop(); return false">Sign in</button>
+                    <button class = "btn btn-primary btn-block" type = "submit">Sign in</button>
                     <h6 class = "line">
                         <span>or</span>
                     </h6>
@@ -58,6 +64,11 @@
             </div> 
         </header>
         <main class = "index-main">
+            <div class = "img-box">
+                <img src="img/epictetus.png" alt = "epictetus">
+                <h5>Epictetus (50AD - 135AD) <br> Greek Stoic Philosopher</h5>
+            </div>
         </main> 
     </body>
+
 </html>
