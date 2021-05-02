@@ -137,13 +137,13 @@ header {
   color: white;
 }
 
-.check {
+.check-container {
   margin: 10px 0 10px 0;
   text-align: start;
 }
 
-.check input,
-.check p {
+.check-container input,
+.check-container p {
   display: inline;
 }
 
@@ -154,11 +154,15 @@ header {
 }
 
 .index-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   margin-top: 40px;
 }
 
 .img-box{
   width: min-content;
+
 }
 
 .img-box img {
@@ -172,8 +176,14 @@ header {
   font-family: sans-serif;
   text-align: center;
   color: goldenrod;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.text-box{
+  border-style: ridge;
+  border-color:rgba(255, 217, 0, 0.801);
 }
 .close {
   display: none;
@@ -206,7 +216,7 @@ header {
     width: 50%;
   }
 
-  .check{
+  .check-container{
     text-align: center;
   }
 
