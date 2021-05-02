@@ -9,30 +9,30 @@ function drop() {
 }
 
 function check(){
-    let user = document.getElementById('name').value;
-    let pass = document.getElementById('pass').value;
+    let user = document.getElementById('name');
+    let pass = document.getElementById('pass');
 
-    if (user == ""){
+    if (user.value == ""){
         document.getElementById('emptyUser').innerHTML = "username required";
         document.getElementById('emptyUser').style.color = 'red';
-        document.getElementById('name').style.borderColor = 'red';
+        user.style.borderColor = 'red';
     }
 
-    
-    if (pass == "") {
+    if (pass.value == "") {
         document.getElementById('emptyPass').innerHTML = "password required";
         document.getElementById('emptyPass').style.color = 'red';
-        document.getElementById('pass').style.borderColor = 'red';
+        pass.style.borderColor = 'red';
     }
 
-    else if (pass != "" && user != ""){
+    else if (pass.value != "" && user.value != ""){
         document.getElementById('emptyUser').innerHTML = "";
-        document.getElementById('name').style.borderColor = "";
+        user.style.borderColor = "";
         document.getElementById('emptyPass').innerHTML = "";
-        document.getElementById('pass').style.borderColor = "";
+        pass.style.borderColor = "";
+        pass.value = "";
+        user.value = "";
         drop(); 
-    }
-    
+    }   
 }
 
 
