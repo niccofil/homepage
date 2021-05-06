@@ -35,15 +35,21 @@
             <div class="dropdown-conteiner">
                 <button type="button" class="close" aria-label="Close" onclick="drop();">&times;</button>
                 <img src="img/login_icon.png">
-                <form class = "forms-sign-in">
+                <form class = "forms-sign-in" action ="#" onsubmit = "check();" id = "myform"> 
                     <h3>Sign In</h3>
-                    <input type = "text" placeholder="Username" id = "name"><br><br>
-                    <input type = "password" placeholder="Password" id = "pass"><br>
-                    <div class = "check">
+                    <div class = "input-conteiner">
+                        <input type = "text" placeholder="Username" id = "name" >
+                        <p id = "emptyUser"></p>
+                    </div>
+                    <div class="pass-conteiner">
+                        <input type = "password" placeholder="Password" id = "pass">
+                        <p id = "emptyPass"></p>
+                    </div>
+                    <div class = "check-container">
                         <input type = "checkbox">
                         <p>Remember password?</p>
                     </div>
-                    <button class = "btn btn-primary btn-block" type="submit" onsubmit = "drop(); return false">Sign in</button>
+                    <button class = "btn btn-primary btn-block" type = "submit">Sign in</button>
                     <h6 class = "line">
                         <span>or</span>
                     </h6>
@@ -58,6 +64,30 @@
             </div> 
         </header>
         <main class = "index-main">
-        </main> 
+            <div class = "img-box">
+                <img src="img/epictetus.png" alt = "epictetus">
+            </div>
+            <div class = "text-box">
+                <p>
+                    We should have ready at hand the knowledge<br>
+                    of what is mine and what is not mine,<br> 
+                    what I can and cannot do. I must die.<br>
+                    But must I die bawling? I must be put in chains - <br>
+                    but moaning and groaning too? I must be exiled;<br>
+                    but is there anything to keep me from going with a smile,<br>
+                    calm and self-composed.
+                    <hr>
+                    Epictetus (50 AD - 135 AD)
+                </p>
+            </div>
+        </main>
+        <footer class = "index-footer">
+            <hr>
+            <p>Follow us</p>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+        </footer>
     </body>
+
 </html>
