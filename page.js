@@ -5,7 +5,6 @@ function drop() {
     }
     else {
         toggle.style.display = 'none';
-        document.getElementById('myform').reset();
     }
     
  
@@ -32,6 +31,7 @@ function check() {
         user.style.borderColor = "";
         document.getElementById('emptyPass').innerHTML = "";
         pass.style.borderColor = "";
+        document.getElementById('myform').reset();
         drop();
     }   
 }
