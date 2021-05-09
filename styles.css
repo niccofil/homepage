@@ -21,7 +21,7 @@ header {
   text-align: center;
   text-transform: uppercase;
   text-shadow: 2px 2px gray;
-  font-style: serif;
+  font-family: 'Caesar Dressing', cursive;
   letter-spacing: 2px;
   color: gold;
 }
@@ -230,13 +230,65 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 420px) {
+
+.history  {
+  width: 60vw;
+  height: auto;
+  line-height: 2em;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.history h6{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.history p{
+  border-left: solid #dd4b39;
+  border-right: solid #dd4b39;
+}
+
+#stoic{
+  height: auto;
+  width: 100%; 
+}
+
+@media screen and (max-width: 768px) {
   header {
     margin-top: 0%;
   }
 
   #title {
     font-size: 5vh;
+  }
+
+
+
+  .index-main{
+    justify-content: space-evenly;
+  }
+
+  .text-box{
+    font-size: 1em;
+  }
+  
+  .history {
+    width: 95vw;
+    margin-top: 10px;
+  }
+  #stoic{ 
+    width: 95vw;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .close {
+    display: block;
+    position: absolute;
+    left: 5%;
   }
 
   .dropdown-conteiner {
@@ -259,19 +311,5 @@ header {
 
   .check-container{
     text-align: center;
-  }
-
-  .close {
-    display: block;
-    position: absolute;
-    left: 5%;
-  }
-
-  .index-main{
-    justify-content: space-evenly;
-  }
-
-  .text-box{
-    font-size: 1em;
   }
 }
