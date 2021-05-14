@@ -163,11 +163,6 @@ header {
   min-height: 65vh;
 }
 
-.img-box{
-  width: min-content;
-
-}
-
 .img-box img {
   border-radius: 30%;
   filter: drop-shadow(5px 5px 5px #222);
@@ -184,8 +179,6 @@ header {
   color:  #da9100;
   letter-spacing: 1px;
 }
-
-.text-box p{margin-bottom: 0;}
 
 .index-footer{
   text-align: center;
@@ -230,12 +223,11 @@ header {
   display: none;
 }
 
-
 .history  {
   width: 60vw;
   height: auto;
   line-height: 2em;
-  text-align: left;
+  text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -247,11 +239,43 @@ header {
 .history p{
   border-left: solid #dd4b39;
   border-right: solid #dd4b39;
+  text-align: left;
 }
 
-#stoic{
-  height: auto;
-  width: 100%; 
+.history img{
+  height: 50%;
+  width: 50%; 
+}
+
+.text-container{
+  width: 50%;
+  line-height: 2em;
+  font-family: Georgia,serif;
+  text-align: left;
+}
+
+.text-container h2{
+  color: gold;
+  text-align: center;
+}
+
+.support-container{
+  text-align: center;
+}
+
+.support-container h3{
+  color: gold;
+}
+
+.payment img{
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+}
+
+.patreon img{
+  width: 140px;
+  height: 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -262,8 +286,6 @@ header {
   #title {
     font-size: 5vh;
   }
-
-
 
   .index-main{
     justify-content: space-evenly;
@@ -277,11 +299,20 @@ header {
     width: 95vw;
     margin-top: 10px;
   }
-  #stoic{ 
+
+  .history img{ 
     width: 95vw;
     height: auto;
   }
 
+  .text-container{
+    width: auto;
+    padding: 5px;
+  }
+
+  .text-container h2{
+    width: max-content;
+  }
 }
 
 @media screen and (max-width: 420px) {
