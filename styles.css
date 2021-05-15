@@ -157,10 +157,11 @@ header {
 .index-main {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items:flex-start;
   justify-content:space-evenly;
   margin-top: 40px;
   min-height: 65vh;
+  padding: 0 5px;
 }
 
 .img-box img {
@@ -273,9 +274,49 @@ header {
   margin: 0 5px;
 }
 
-.patreon img{
-  width: 140px;
-  height: 40px;
+#patreon{
+  margin-top: 5px;
+  border: 0;
+  padding: 0;
+}
+
+.post-container{
+  width: 350px;
+  height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+.post-container img{
+  height: auto;
+  width: 100%;
+}
+
+.post-container p{
+  width: 100%;
+  margin: 0;
+}
+
+.post-container:hover{
+  opacity: 0.8;
+}
+
+.shop-container{
+  width: fit-content;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.shop-container img{
+  height: 50%;
+  width: 50%;
+}
+
+.shop-container p{
+  margin-bottom: 5px;
+  font-style: italic;
+  font-family: cursive;
 }
 
 @media screen and (max-width: 768px) {
